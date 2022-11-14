@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "server": "json-server server.json -w -d 750 -p 3333",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "date-fns": "^2.29.3",
+    "json-server": "^0.17.1",
     "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
